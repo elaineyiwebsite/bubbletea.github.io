@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>BubbleTEA : Register</title>
+</head>
+    
+<body>
+   <!-- Slide Bar -->
+	<div id="slideout">
+        <div id="slideout_inner">
+                <div class="nav_link">
+                <img src="./img/bg/facebook.png" width="30" height="30">
+                <img src="./img/bg/twitter.png" width="30" height="30">
+                <img src="./img/bg/instagram.png" width="30" height="30">
+            </div>
+            <ul class="menu_choice">
+                <li class="menu_item"><a href="index.html">HOME</a></li>
+                <li class="menu_item"><a href="About.html">ABOUT</a></li>
+                <li class="menu_item"><a href="type.html">TYPE</a></li>
+                <li class="menu_item"><a href="news.html">NEWS</a></li>
+                <li class="menu_item"><a href="Contect.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Top Bar -->
+    <div id="main menu">
+        <div class="logo_area">
+            <a href="index.html">BubbleTEA</a>
+        </div>
+        <div class="mem">
+            <a href="login.html">Login</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="register.html">Register</a>
+        </div>
+        <div class="main_menu">
+            <ul>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Type.html">TYPE</a></li>
+                <li><a href="News.html">NEWS</a></li>
+                <li><a href="Contect.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="account.js"></script>
+
+     <div class="resform">
+        <form onsubmit="return Register()">
+        <fieldset class="logininfo">
+            <legend>Login Information</legend>
+            <br><br>
+            <input type="text" id="newUsername" class="resinput" placeholder="Username" required/>
+            <br> <br>
+            <input type="password" id="newPassword" class="resinput" placeholder="Password" required/>
+            <br> <br>
+            <input type="password" id="newPasswordReenter" class="resinput" placeholder="Re-enter password" required/>
+            <br><br>
+        </fieldset>
+        <br>
+        <fieldset class="perinfo">
+            <legend>Personal Information</legend>
+            <br><br>
+            <input type="text" class="Perinput" id="firstName" placeholder="First Name" required/>
+            <br><br>
+            <input type="text" class="Perinput" id="lastName" placeholder="Last Name" required/>
+            <br><br>
+            <input type="text" class="Perinput" id="homeAddress" placeholder="Home Address">
+            <br><br>
+            <label for="gender" >Gender:</label>
+            <input type="radio" name="gender" value="female" required> Female
+            <input type="radio" name="gender" value="male" required> Male
+            <input type="radio" name="gender" value="other" required> Other
+            <br><br>
+            <label for="dateOfBirth" >Date of Birth: </label>
+            <input type="date" id="dateOfBirth" required>
+            <br><br>
+        </fieldset>
+        <br><br>
+        <input type="submit" value="Register" class="res-resbtn">
+    </form>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+    <footer>Copyright &copy; 2019 BubbleTEA. All rights reserved. </footer>
+    </div>
+</body>
+</html>

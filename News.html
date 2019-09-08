@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Bubbtea : NEWS</title>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+         document.getElementById("Btn").style.display = "block";
+        } else {
+            document.getElementById("Btn").style.display = "none";
+        }
+    }
+
+
+        function topFunction() {
+        document.body.scrollTop = 0; 
+        document.documentElement.scrollTop = 0; 
+        }
+
+</script>
+</head>
+<body>
+<!-- Slide Bar -->
+<div id="slideout">
+        <div id="slideout_inner">
+                <div class="nav_link">
+                <img src="./img/bg/facebook.png" width="30" height="30">
+                <img src="./img/bg/twitter.png" width="30" height="30">
+                <img src="./img/bg/instagram.png" width="30" height="30">
+            </div>
+            <ul class="menu_choice">
+                <li class="menu_item"><a href="index.html">HOME</a></li>
+                <li class="menu_item"><a href="About.html">ABOUT</a></li>
+                <li class="menu_item"><a href="type.html">TYPE</a></li>
+                <li class="menu_item"><a href="news.html">NEWS</a></li>
+                <li class="menu_item"><a href="Contect.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Top Bar -->
+    <div id="main menu">
+        <div class="logo_area">
+            <a href="index.html">BubbleTEA</a>
+        </div>
+        <div class="mem">
+            <a href="login.html">Login</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="register.html">Register</a>
+        </div>
+        <div class="main_menu">
+            <ul>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Type.html">TYPE</a></li>
+                <li><a href="News.html">NEWS</a></li>
+                <li><a href="Contect.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Blog-->
+     <div class="NewTypeR2">
+        <img src="./img/bg/r3.png" width="48%" class="typeR2"></div>
+    
+    <div class="aboutTypeR1">
+        <img src="./img/bg/r2.png" width="48%" class="typeR1"></div>
+          <div class="header">
+  <a class="typeTittle">NEWS..</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Sweeter than soda? The hidden sugars in bubble tea</h2>
+      <h5>Singapore, Dec 7, 2017</h5>
+      <div><img src="./img/bubbleTEA/newsPhoto_1.jpg" width="70%" ></div>
+      <p>Bubble tea is a beverage that remains hugely popular in Singapore, with some people willing to queue for 30 minutes or more to get their favourite cup...</p>
+        <a href="#">Read more..</a>
+    </div>
+    <div class="card">
+      <h2>
+Bubble tea craze is a super sweet market for inventive Hong Kong entrepreneurs. But could this bubble burst?</h2>
+      <h5>Companies, Sep 2, 2017</h5>
+      <div><img src="./img/bubbleTEA/newsPhoto_2.jpg" width="70%" ></div>
+      <p>Bubble tea is being reinvented for a new generation of fans, with colours added to the chewy pearls and new toppings like cheese...</p>
+        <a href="#">Read more..</a>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>BubbleTEA Ranking</h2>
+      <div><img src="./img/bubbleTEA/KOI.jpg"></div>
+      <p>NO1. KOI</p>
+        <p>NO2. TenRen’s Tea</p>
+        <p>NO3. Sharetea</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <p><a href="#">Sweeter than soda? </a></p>
+      <p><a href="#">This bubble burst?</a></p>
+      <p><a href="#">Bubble and Milk Tea: Top 9 Places</a></p>
+    </div>
+    <div class="card">
+      <h3>Follow US!</h3>
+      <div><img src="./img/bubbleTEA/bubble.gif" width="60%" ></div>
+    </div>
+  </div>
+</div>
+    
+    <!--on top btn-->
+    
+    <button onclick="topFunction()" id="Btn" title="Go to top">Top</button>
+ 
+    
+
+    <!-- Footer -->
+    <div class="footer">
+    <footer>Copyright &copy; 2019 Bubbtea. All rights reserved. </footer>
+    </div>
+</body>
+</html>
